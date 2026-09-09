@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/index.css">
+    
+    <link rel="stylesheet" href="../CSS/cardapio.css">
+
+    <!-- Icone da aba -->
+    <link icon rel="shortcut icon" href="../IMG/icons_sweet.png" type="image/x-icon">
+
+    <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Caacupe+One&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Caacupe+One&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <header>  
+        <div class = "logo">
+            <img src="../IMG/Sweet-dreams.png" alt="logotipo da loja" class = "logo">
+        </div>
+            
+            
+        <div class = "menu">
+            <a href="../index.html"><h1> SWEET DREAMS</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="../pages/sobre.html">✴Sobre✴</a></li>
+                    <li><a href="../pages/cardapios.html">✴Cardápio✴</a></li>
+                    <li><a href="../pages/contato.html">✴Contato✴</a></li>
+                    
+                </ul>
+        </div>
+    </header>
+<section>
+    <h1>Cardápio</h1>
+
+    <h2>Pedaço único</h2>
+        <div class="img-cardapio1">
+            <div class="img-amora">
+                <h2>Bolo de Amora</h2>
+                <img src="../IMG/bolo_bunner_amora.jpg" alt="Bolo de Amora" class="cardapio-img">
+                <p>O bolo de amora é uma das combinações mais gostosas e diferentes da casa.</p>
+                <div class="reservar">
+                  <button onclick="abrir()"> Reservar</button>
+                </div>
+                
+            </div>
+
+            <div class = "img-Mentarango">
+                <h2>O Mentarango</h2>
+                <img src="../IMG/bolo_bunner_menta.jpg" alt="bolo de menta com corango">
+                <p>O sabor único e diferencial, morango com menta em uma unica fatia de bolo.</p>
+                <h3>Reservar</h3>
+            </div>
+
+            <div class = "img-morango">
+                <h2>Morango</h2>
+                <img src="../IMG/bolo_bunner_suspiros.jpg" alt="bolo de suspiro e morangos">
+                <p>O classico sabor, o bolo de morango é feito com morangos frescos e selecionados.</p>
+                <h3>Reservar</h3>
+            
+        </div>
+</section>
+
+<div id = "fade" class = "hide"></div>
+       
+<h2>Bolos inteiros</h2>
+    <div class = "img-cardapio2">
+            <div class = img-moranguinho>
+                <h2>Moranguinho</h2>
+                <img src="../IMG/moranginhos_cake.jpg" alt="moranguinho bolo desenho">
+                <p>Um bolo bem pequenininho e bem fofinho e muito recheado de alegria! Esse é o segredo.</p>
+                <h3>Reservar</h3>
+            </div>
+
+            <div class = img-snupp>
+                <h2>Snupp</h2>
+                <img src="../IMG/snup_mirtilo.jpg" alt="Snupp de mirtilo">
+                <p>O bolo do Snupp é um bolo recheado de mirtilos com camadas de chantily.</p>
+                    <h3>Reservar</h3>
+            </div>
+
+            <div class = "img-cherry">
+                <h2>CHERRY</h2>
+                <img src="../IMG/Cherry_cake.jpg" alt="bolo decorado de cereja">
+                <p>O bolo de Cereja é uma mistura, o toque perfeito de chantily e cereja
+                    cria um novo sentimento
+                </p>
+                 <h3>Reservar</h3>
+            </div>
+    </div>
+
+    <div id = "fade" class = "hide"></div>
+    <div id = "modal" class ="hide">
+        <div>
+            <h2>realizar reserva</h2>
+            <img src="" alt="">
+        </div>  
+        <div>
+            <a href="">fechar</a>
+        </div>
+    </div>
+</body>
+<script src="../js/cardapio.js"></script>
+</html>
