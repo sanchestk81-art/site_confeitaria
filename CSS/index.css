@@ -1,3 +1,6 @@
+body{
+    background-color:bisque;
+}
 header{
     background-color: #943ba1;
     border-radius: 10px;
@@ -34,13 +37,13 @@ ul{
     display: flex;
     justify-content: center;
 }
-h1{
+header h1{
     font-family: "Silkscreen", sans-serif;
     font-size: 40px;
     color: rgb(41, 0, 135);
 
 }
-h1:hover{
+header h1:hover{
     color: rgb(242, 224, 164);
     font-size: 50px;
     cursor: pointer;
@@ -73,7 +76,8 @@ a:hover{
     object-fit: cover;
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-radius: 1px rgb(41, 0, 135);
+    border-radius: 10px 
+    background-color: rgb(41, 0, 135);
 }
 .sobre{
     background-color: #c4aace;
@@ -143,6 +147,30 @@ footer{
     justify-content: center;
     text-align: center;
     color: white;   
+}
+.exclusivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    background: #e0d19c;
+    border-radius: 5px ;
+}
+.exclusivos img{
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.sobre-exclusivos{
+    background: linear-gradient(to bottom,  #fceabc, #fecc64,#fa9058);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+    display: flexbox;
 }
 
 

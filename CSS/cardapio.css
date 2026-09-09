@@ -1,3 +1,7 @@
+body{
+    background-color: #fff7d6;
+}
+
 .img-cardapio1{
      background-color: #c4aace;
     border-radius: 10px;
@@ -6,6 +10,9 @@
     width: 100%;
     height: 600px;
     padding: 0;
+}
+.h2{
+    font-size: 50;
 }
 .img-amora{
     background-color: #84d4c8;
@@ -56,12 +63,14 @@ img{
     border: 2px solid rgb(41, 0, 135);
     border-radius: 10px;
 }
-h3{
-    color: red;
-    width: 100;
-    height: 150;
-    padding: 0px;
-    cursor: pointer;
+section h1{
+    color: #0C0D45;
+    font-size:50;
+    justify-content: center;
+    background-color: #dae8fb;
+    font-family: "Silkscreen", sans-serif;
+    text-align: center;
+
 
 }
 
@@ -139,3 +148,4 @@ h3{
     padding: 10px;
     z-index: 2 ;
 }
+
