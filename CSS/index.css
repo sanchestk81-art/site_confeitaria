@@ -43,25 +43,19 @@ header h1{
     color: rgb(41, 0, 135);
 
 }
-header h1:hover{
-    color: rgb(242, 224, 164);
-    font-size: 50px;
-    cursor: pointer;
-    box-shadow: inset 600px 0 0 0 rgb(162, 48, 164);
-    color: white;
-}
+
 ul li{
     color: rgb(41, 0, 135);
     font-size: 20px;
 }
-a{
+li{
     text-decoration: none;
     color: rgb(17, 17, 18);
     margin: 0 -.25rem;
      padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-a:hover{
+li:hover{
     color: rgb(242, 224, 164);
     font-size: 25px;
     cursor: pointer;
