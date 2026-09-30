@@ -1,5 +1,5 @@
 body{
-    background-color:bisque;
+    background-color:rgb(255, 228, 196);
 }
 header{
     background-color: #943ba1;
@@ -31,6 +31,9 @@ header{
     align-items: center;
 
 }
+a{
+    text-decoration: none;
+}
 ul{
     gap: 20px;
     list-style-type: none;
@@ -41,6 +44,11 @@ header h1{
     font-family: "Silkscreen", sans-serif;
     font-size: 40px;
     color: rgb(41, 0, 135);
+
+}
+header h1:hover{
+    color:rgb(162, 48, 164);
+    transi
 
 }
 
@@ -70,7 +78,7 @@ li:hover{
     object-fit: cover;
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-radius: 10px 
+    border-radius: 10px; 
     background-color: rgb(41, 0, 135);
 }
 .sobre{
@@ -82,7 +90,7 @@ li:hover{
     margin: auto;
     flex-direction: column;
     text-align: justify;
-    align-items: center;
+    align-items: end;
     background: linear-gradient(to bottom,  #c4aace, rgb(162, 48, 164),rgb(41, 0, 135));
     
 }
@@ -165,6 +173,9 @@ footer{
     text-align: justify;
     padding: 10px;
     display: flexbox;
+}
+h1{
+    font-family: "Silkscreen", sans-serif;
 }
 
 
