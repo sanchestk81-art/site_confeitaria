@@ -1,5 +1,57 @@
+/* Container pai que junta os dois lados */
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre a coluna azul e a listagem */
+    margin-top: 20px;
+    padding: 0 20px;
+}
 
-.sobre_nos{
-    background-color: #4925a4;
+/* Coluna da Esquerda (Blocos Azuis) */
+.azul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%; /* Ajuste a largura conforme preferir */
+}
 
+.sobre_nos, .selecionados {
+    background-color: rgb(41, 0, 135);
+    width: 100%; /* Ocupa 100% da largura da container .azul */
+    min-height: 200px;
+    display: flex;
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+
+/* Coluna da Direita (Listagem) */
+.listagem {
+    width: 35%; /* Ocupa o restante do espaço */
+    display: flex;
+}
+
+.ingredientes {
+    background-color: rgb(162, 48, 164);
+    width: 100%;
+    height: 100%; /* Acompanha a altura dos blocos ao lado */
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+
+/* Tipografia */
+h2 {
+    font-family: "Silkscreen", sans-serif;
+    color: #c4aace;
+    margin-top: 0;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.5;
 }

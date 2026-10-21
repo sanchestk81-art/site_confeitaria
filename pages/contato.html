@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Pedido - Confeitaria Sweet Dreams</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/contato.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+     <header>  
+        <div class = "logo">
+            <img src="/IMG/Sweet-dreams.png" alt="logotipo da loja" class = "logo">
+        </div>
+            
+            
+        <div class = "menu">
+              <a href="/index.html">
+                <h1> SWEET DREAMS</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/pages/sobre.html">✴Sobre✴</a></li>
+                    <li><a href="/pages/cardapio.html">✴Cardápio✴</a></li>
+                    <li><a href="/pages/contato.html">✴Contato✴</a></li>
+                    
+                </ul>
+            </nav>    
+        </div>
+    
+    </header>
+
+
+    <h1>Faça seu Pedido 🍰</h1>
+
+    <form onsubmit="cadastrar(event)" class="form-container">
+        
+        <!-- Seção 1: Dados do Cliente e Pedido -->
+        <div class="cadastro">
+            <h2>Dados Pessoais & Pedido</h2>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" required placeholder="Digite seu nome">
+
+            <label for="telefone">Telefone / WhatsApp:</label>
+            <input type="tel" id="telefone" required placeholder="(11) 99999-9999">
+
+            <label for="doce">Escolha seu Doce:</label>
+            <select id="doce" required>
+                <option value="">Selecione uma opção...</option>
+                <option value="Bolo de Chocolate">Bolo Especial de Chocolate</option>
+                <option value="Torta de Morango">Torta Gelada de Morango</option>
+                <option value="Caixa de Brigadeiros">Caixa de Brigadeiros Gourmet (12 un)</option>
+                <option value="Cupcake Red Velvet">Kit Cupcakes Red Velvet</option>
+            </select>
+
+            <label for="observacoes">Observações do Pedido:</label>
+            <textarea id="observacoes" class="observacoes" placeholder="Ex: Sem lactose, velinha de aniversário, etc."></textarea>
+        </div>
+
+        <!-- Seção 2: Endereço (Busca via CEP) -->
+        <div class="endereco">
+            <h2>Endereço de Entrega</h2>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" placeholder="00000-000" maxlength="9" onblur="buscarCEP()" onkeyup="verificarTamanhoCEP(event)">
+
+            <label for="logradouro">Rua / Logradouro:</label>
+            <input type="text" id="logradouro" placeholder="Rua, Avenida..." required>
+
+            <label for="numero">Número e Complemento:</label>
+            <input type="text" id="numero" placeholder="Nº 123, Apto 4" required>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" required>
+
+            <div class="campo-duplo">
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" required>
+                </div>
+                <div>
+                    <label for="uf">UF:</label>
+                    <input type="text" id="uf" maxlength="2" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Pedido 🚀</button>
+        </div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -48,8 +48,6 @@ header h1{
 }
 header h1:hover{
     color:rgb(162, 48, 164);
-    transi
-
 }
 
 ul li{
@@ -168,7 +166,7 @@ footer{
 .sobre-exclusivos{
     background: linear-gradient(to bottom,  #fceabc, #fecc64,#fa9058);
     width: 500px;
-    height: 300px;
+    height: 350px;
     border-radius: 10px;
     text-align: justify;
     padding: 10px;

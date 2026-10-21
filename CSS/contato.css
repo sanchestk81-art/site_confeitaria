@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Caacupe+One&family=Changa+One:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    font-family: "Changa One", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #943baf;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #943baf;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Envolvente do formulário para alinhar lado a lado */
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap; /* Garante que fique bom em celulares */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cadastro, .endereco {
+    display: flex;
+    flex-direction: column;
+    width: 45%; /* Ajustado de 25% para caber melhor o texto */
+    min-width: 300px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif; /* Para fácil leitura dentro dos campos */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #943baf;
+    outline: none;
+}
+
+.campo-duplo {
+    display: flex;
+    gap: 10px;
+}
+
+.campo-duplo div {
+    flex: 1;
+}
+
+.observacoes {
+    resize: none;
+    height: 90px;
+}
+
+button.btn-enviar {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+button.btn-enviar:hover {
+    background-color: #218838;
+}
