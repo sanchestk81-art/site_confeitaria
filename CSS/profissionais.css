@@ -1,0 +1,25 @@
+table{
+    border: 3px solid;
+    background-color: rgb(41, 0, 135);;
+    border-color: rgb(162, 48, 164);;
+    
+}
+table img{
+    width: 50%;
+    border-radius: 5%;
+}
+.sobre{
+    margin: 20px;
+}
+table td{
+    border: 1px solid;
+    padding: 5px;
+    background-color: aliceblue;
+    font-family: "Pixelify Sans", sans-serif;;
+    font-size: larger;
+
+}
+table thead tr{
+    font-family:"Silkscreen", sans-serif;
+
+}
